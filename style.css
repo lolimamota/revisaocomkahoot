@@ -1,0 +1,126 @@
+/*Linkando pelo o CSS*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /*A mesma fonte em toda a página utilizando o seletor universal*/
+  font-family: "Playfair Display", serif;
+}
+
+/*A mesma fonte em toda a página utilizando a body*/
+body {
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  height: 20vh;
+  background-color: rgb(147, 112, 219);
+  background-color: rgba(147, 112, 219, 1);
+  /*A - alpha, vai de 0 a 1 (0,0.1,0.5,0.7,1) */
+  display: flex;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: space-between;
+
+  align-items: flex-start;
+  align-items: flex-end;
+  /* align-items: stretch; */
+  align-items: center;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  border: solid red;
+  border-radius: 20px 20px 10px 40px;
+  border-radius: 20px 20px;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+nav {
+  border: solid red;
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  font-size: 32px;
+  font-size: 2rem;
+  font-size: 2em;
+  list-style: none;
+  /*list-style: none; retira a marcação da lista*/
+  text-transform: none;
+  text-transform: capitalize;
+  text-transform: lowercase;
+  text-transform: uppercase;
+}
+
+.containerBoxOne {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div {
+  width: 20%;
+  height: 50vh;
+  border: solid black;
+  display: flex;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column-reverse;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBoxOne {
+  width: 50%;
+  border-radius: 50%;
+}
+
+h3 {
+  border: solid red;
+  width: 100%;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  text-align: justify;
+  text-align: left;
+  text-align: right;
+  text-align: center;
+
+  font-style: normal;
+  font-style: oblique;
+  font-style: italic;
+
+  font-weight: normal;
+  font-weight: lighter;
+  font-weight: bold;
+  font-weight: 900;
+  /*vai de 100 a 900, contando de 100 em 100*/
+}
+
+.containerTwo {
+  height: 50vh;
+  background-image: url("https://static.wixstatic.com/media/1ff5c2_9243e3209ef943329b716dee09a9f5ce~mv2.jpg/v1/fill/w_1905,h_495,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/1ff5c2_9243e3209ef943329b716dee09a9f5ce~mv2.jpg");
+}
+
+button {
+  width: 20vw;
+  height: 10vh;
+  background-color: #9932cc;
+  font-size: 2rem;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
